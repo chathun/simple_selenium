@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TokBox_Signup_Test" duration-ms="18861" started-at="2015-11-13T15:40:46Z" finished-at="2015-11-13T15:41:05Z">
+    <groups>
+    </groups>
+    <test name="Tokbox_Test_Firefox" duration-ms="13342" started-at="2015-11-13T15:40:46Z" finished-at="2015-11-13T15:41:00Z">
+      <class name="com.tokbox.test.SignupPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.tokbox.test.SignupPageTest@783e6358]" name="beforeClass" is-config="true" duration-ms="6967" started-at="2015-11-13T07:40:46Z" finished-at="2015-11-13T07:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testLoginSucces()[pri:0, instance:com.tokbox.test.SignupPageTest@783e6358]" name="testLoginSucces" duration-ms="4400" started-at="2015-11-13T07:40:53Z" finished-at="2015-11-13T07:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSucces -->
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tokbox.test.SignupPageTest@783e6358]" name="testSignUp" duration-ms="1788" started-at="2015-11-13T07:40:58Z" data-provider="user" depends-on-methods="com.tokbox.test.SignupPageTest.testLoginSucces" finished-at="2015-11-13T07:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mary]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TokBox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tokbox.test.SignupPageTest@783e6358]" name="afterClass" is-config="true" duration-ms="168" started-at="2015-11-13T07:40:59Z" finished-at="2015-11-13T07:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.tokbox.test.SignupPageTest -->
+    </test> <!-- Tokbox_Test_Firefox -->
+    <test name="Tokbox_Test_Safari" duration-ms="5493" started-at="2015-11-13T15:41:00Z" finished-at="2015-11-13T15:41:05Z">
+      <class name="com.tokbox.test.SignupPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.tokbox.test.SignupPageTest@3cbbc1e0]" name="beforeClass" is-config="true" duration-ms="2695" started-at="2015-11-13T07:41:00Z" finished-at="2015-11-13T07:41:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testLoginSucces()[pri:0, instance:com.tokbox.test.SignupPageTest@3cbbc1e0]" name="testLoginSucces" duration-ms="237" started-at="2015-11-13T07:41:02Z" finished-at="2015-11-13T07:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSucces -->
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tokbox.test.SignupPageTest@3cbbc1e0]" name="testSignUp" duration-ms="2490" started-at="2015-11-13T07:41:03Z" data-provider="user" depends-on-methods="com.tokbox.test.SignupPageTest.testLoginSucces" finished-at="2015-11-13T07:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mary]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TokBox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tokbox.test.SignupPageTest@3cbbc1e0]" name="afterClass" is-config="true" duration-ms="68" started-at="2015-11-13T07:41:05Z" finished-at="2015-11-13T07:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.tokbox.test.SignupPageTest -->
+    </test> <!-- Tokbox_Test_Safari -->
+  </suite> <!-- TokBox_Signup_Test -->
+</testng-results>

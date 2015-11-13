@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TokBox_Signup_Test">
+<listeners>
+		<listener class-name="com.tokbox.utilities.ListenerClass" />
+	</listeners>
+
+
+
+	<!-- FIREFOX -->
+	<test name="Tokbox_Test_Firefox" preserve-order="true" parallel="classes"
+		thread-count="1">
+
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.tokbox.test.SignupPageTest" />
+
+		</classes>
+	</test>
+
+
+
+	<!-- CHROME -->
+	<!-- test name="Tokbox_Test_Chrome" preserve-order="true" parallel="classes" 
+		thread-count="1"> <parameter name="browser" value="chrome" /> <classes> 
+		<class name="com.tokbox.test.SignupPageTest" /> </classes> </test-->
+
+	<!-- SAFARI -->
+	<test name="Tokbox_Test_Safari" preserve-order="true" parallel="classes" 
+		thread-count="1"> <parameter name="browser" value="safari" /> <classes> 
+		<class name="com.tokbox.test.SignupPageTest" /> </classes> </test>
+
+
+</suite>
